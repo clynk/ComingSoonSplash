@@ -1,0 +1,105 @@
+
+
+body{
+	font-family: 'Muli', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+	background: #43678b url(../img/newbackground.jpg) no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+}
+h1{
+font-family: 'Philosopher', sans-serif;
+text-transform: uppercase;
+font-size: 36px;
+margin-bottom: 5px;
+margin-top: 55px;
+}
+
+h2, h3, h4, time{
+	font-family:'Muli', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+h2{
+font-size: 20px;
+}
+h3{
+font-size: 20px;
+}
+h4{
+font-size: 16px;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+	transition: all 0.3s ease-out;
+}
+
+a:hover{
+	color: #6bd08a;
+}
+
+main{
+	max-width: 1200px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.content{
+	width: 50%;
+}
+
+aside{
+	margin-top: 30px;
+	position: relative;
+	left: 40px;
+}
+aside p{
+	margin-top: 10px;
+}
+.copyright{
+	font-size: 10px;
+	margin-top: 80px;
+	color: #fff;
+}
+.always{
+	font-size: 14px;
+	margin-top: 20px;
+	color: #fff;
+}
+
+.linkedin, .twitter, .pinterest{
+	position: relative;
+}
+
+.linkedin:before, .twitter:before, .pinterest:before{
+	content: "\f0e1";
+	position: absolute;
+	left: -43px;
+	top: 2px;
+	width: 28px;
+	height: 28px;
+	font-family:'FontAwesome';
+	font-size: 18px;
+}
+.linkedin:before{
+	content: "\f0e1";
+	}
+.twitter:before{
+	content: "\f099";
+	}
+.pinterest:before{
+	content: "\f0d2";
+	}
+
+
+
+
+
+
+
+
